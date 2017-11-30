@@ -1,0 +1,403 @@
+*{
+  font-family: "Barlow Semi Condensed",sans-serif;
+}
+
+html{
+  background-color: #161616;
+}
+
+body{
+padding: 0;
+margin: 0;
+}
+
+#main{
+  margin: 0 auto;
+}
+
+header{
+  background-color: #4A4D48;
+  width: 100%;
+  min-height: 70px;
+  max-height: 150px;
+  padding-top: 15px;
+}
+
+ul{
+  text-align: right;
+  padding-right: 40px;
+}
+
+nav li{
+  display: inline-block;
+  padding: 0px 5px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#box-1{
+  min-height: 500px;
+  background-image: url(https://youveneverheardofjentidwell.files.wordpress.com/2012/03/house.jpg);
+  position:relative;
+  background-position: center center;
+  background-attachment: fixed fixed;
+  background-size: cover;
+  margin: -16px 0;
+}
+
+.intro{
+  color: #FFF;
+  letter-spacing: 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color:rgba(79,82,79,0.7);
+}
+
+.intro h1{
+  font-size: 25px;
+}
+
+.intro h5{
+  font-weight: normal;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+#box-1 a{
+  color: #009ED7;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#discover{
+  clear: both;
+  position: relative;
+  color: #009ED7;
+  margin: 30px 20px;
+  max-width: 300px;
+  padding: 10px;
+  z-index: 99999;
+  border-radius: 10px;
+  border: 2px solid #009ED7;
+  transition: all .5s;
+}
+
+#box-2, #box-6{
+  background-color: #009DCD;
+}
+
+#box-5, footer{
+  background-color: #394047;
+}
+
+#box-2{
+height: 280px;
+margin: -16px 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+
+#box-2 h5, h1{
+  margin: 0;
+}
+
+#box-2 h5{
+  max-width: 550px;
+  font-size: 25px;
+  margin: 0 auto;
+  font-weight: normal;
+  color: rgba(0, 118, 152, 0.95);
+}
+
+#box-2 h1{
+  font-weight: normal;
+  font-size: 37px;
+  padding-top: 10px;
+  color: #047493;
+}
+
+#box-3{
+background-color: #F7F7F7;
+min-height: 400px;
+color: #A4B2B6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.flex-howto p{
+  display: inline;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px 100px 10px 100px;
+  padding: 10px 25px;
+  background-color:#A4B2B6;
+  border-radius: 100%;
+  color: #FFF;
+}
+
+.flex-howto{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-howto h1{
+  font-size: 30px;
+}
+
+.flex-howto h5{
+  margin: 0;
+  font-weight: normal;
+}
+
+.flex-howto div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#box-3 a{
+  color: #009ED7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.start{
+  clear: both;
+  position: relative;
+  color: #009ED7;
+  max-width: 300px;
+  padding: 10px;
+  z-index: 99999;
+  border-radius: 10px;
+  border: 2px solid #009ED7;
+  transition: all .5s;
+  min-width: 160px;
+}
+
+#box-4{
+background-color: #FFF;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+color: #565656;
+height: 440px;
+}
+
+.property{
+  max-width: 405px;
+}
+
+.property h1{
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.property h6{
+  margin: 0;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.property p{
+  padding-bottom: 10px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.plan a{
+  color: #00BBF3;
+  text-decoration-color: rgba(0, 187, 243, 0.5);
+}
+
+.house{
+  max-width: 400px;
+}
+
+#box-5{
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#box-5 h1{
+  width: 435px;
+  margin-right: 100px;
+  text-align: justify;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+strong{
+  color: #009ED7;
+}
+
+.container{
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  border: 8px solid #454E57;
+}
+
+.container input{
+  height: 40px;
+  margin: 2px 0px;
+  border-radius: 3px;
+  border: 1px solid #454E57;
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+
+.sign-up{
+  clear: both;
+  z-index: 99999;
+  border-radius: 5px;
+  border: 2px solid #009ED7;
+  background-color: #009ED7;
+  transition: all .5s;
+  margin-top: 3px;
+}
+
+.sign-up a {
+  color: #FFF;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box-6{
+  height: 450px;
+  margin: -25px 0px -25px 0px;
+  background-image: url(https://static.pexels.com/photos/259600/pexels-photo-259600.jpeg);
+  position:relative;
+  background-position: center center;
+  background-attachment: fixed fixed;
+  background-size: cover;
+}
+
+.description{
+  color: #FFF;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 450px;
+  background-color:rgba(37,156,195,0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-6 h6{
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 15px;
+  max-width: 600px;
+  text-align: left;
+}
+
+#box-6 p{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  max-width: 526px;
+  padding-right: 71px;
+}
+
+#box-7{
+  background-color: #F1F6FC;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  color: #444444;
+}
+.schedule h6, p{
+  margin: 0;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.schedule h6{
+  font-size: 30px;
+}
+
+.schedule p{
+  font-size: 20px;
+}
+
+.learn-more{
+  clear: both;
+  position: relative;
+  color: #FFF;
+  max-width: 300px;
+  padding: 12px;
+  z-index: 99999;
+  border-radius: 10px;
+  border: 2px solid #009ED7;
+  background-color: #009ED7;
+  transition: all .5s;
+  min-width: 160px;
+}
+
+#box-7 a{
+  color: #009ED7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+
+footer{
+  color: #FFF;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
